@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="icon" href="./images/logo.ico">
+    <title>stoem</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row center">
+            <form class="col l12 s12 m12" method="POST" action="capture-form">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input name="restaurant" id="restaurant" type="text" class="validate" required>
+                        <label for="restaurant">Restaurant</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input name="phone" id="Phone" type="text" class="validate" required>
+                        <label for="Phone">Phone</label>
+                    </div>
+
+                    <div class="input-field col s12">
+                        <input name="details" id="details" type="Text" class="validate" required>
+                        <label for="details">Details</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input name="feedCount" id="feedCount" type="number" class="validate" required>
+                        <label for="feedCount">Feed Count</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <button type="submit" class="waves-effect waves-light btn">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
